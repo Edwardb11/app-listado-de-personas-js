@@ -1,0 +1,29 @@
+html {
+    background-color: #2196f3;
+    min-height: 1000px;
+    font-family: "helvetica neue";
+    background: url(fondo.png), #2196f3;
+    background: url(fondo.png),
+      -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
+    background: url(fondo.png),
+      linear-gradient(to left, #2196f3, #009688);
+  }
+  
+  h1 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #cabecero {
+    background-color: #3f51b5;
+    text-align: center;
+  }
+  
