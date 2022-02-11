@@ -36,8 +36,7 @@ function agregarPersona() {
     const persona = new Persona(nombre.value, apellido.value);
     console.log(persona);
     personas.push(persona);
-    nombre.value = "";
-    apellido.value = "";
+    document.getElementById("forma").reset();
     mostrarPersonas();
   } else {
     console.log("No hay información que agregar");
