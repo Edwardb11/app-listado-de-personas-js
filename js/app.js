@@ -16,7 +16,7 @@ class Persona {
     return (this._apellido = apellido);
   }
 }
-const personas = [new Persona("Juan", "Perez"), new Persona("Karla", "Lara")];
+const personas = [new Persona("Edward", "Brito"), new Persona("Carlos", "Maria")];
 
 function mostrarPersonas() {
   console.log("Mostrar personas...");
