@@ -41,6 +41,8 @@ function agregarPersona(){
         console.log(persona);
         personas.push(persona);
         mostrarPersonas();
+        nombre.value=''
+        apellido.value=''
     }
     else{
         console.log('No hay información que agregar');
